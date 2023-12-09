@@ -1,0 +1,2 @@
+# iverilog_auto
+基于iverilog实现rtl和tb文件的自动编译和仿真，并打开gtkwave查看波形
