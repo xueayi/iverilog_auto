@@ -2,10 +2,11 @@
 基于iverilog实现rtl和tb文件的自动编译和仿真，并打开gtkwave查看波形
 
 # 使用方法：
-1. rtl模块代码文件文件命名为*_rtl.v
-2. tb模块代码文件文件命名为*_tb.v
+1. 启动bat以进行编译、仿真和查看波形
+2. rtl模块代码文件文件命名为*_rtl.v
+3. tb模块代码文件文件命名为*_tb.v
 （*为任意合法字符串）
-3. tb模块加人以下代码：
+4. tb模块加人以下代码：
 
 initial begin
 	$dumpfile("wave.vcd");  			// 指定VCD波形文件的名字为wave.vcd，仿真信息将记录到此文件，wave.vcd文件将存储在当前目录下
