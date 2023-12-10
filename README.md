@@ -1,6 +1,7 @@
 # iverilog_auto
 基于iverilog实现rtl和tb文件的自动编译和仿真，并打开gtkwave查看波形
 
+3A07
 # 使用方法：
 1. 启动bat以进行编译、仿真和查看波形
 2. rtl模块代码文件文件命名为*_rtl.v
