@@ -1,8 +1,8 @@
-rd /s /q simulation		%åˆ é™¤ä»¿çœŸæ–‡ä»¶å¤¹%
-del *.vcd *.out *.txt	%åˆ é™¤å¿˜è®°åŠ ä»£ç ç”Ÿæˆçš„æ–‡ä»¶%
-md simulation		%é‡å»ºä»¿çœŸæ–‡ä»¶å¤¹%
-iverilog -o "wave.out" *_rtl.v *_tb.v    %ç¼–è¯‘rtlå’Œtbç”Ÿæˆä¸­é—´æ–‡ä»¶%
-vvp wave.out     %ç”¨ä¸­é—´æ–‡ä»¶è¿›è¡Œä»¿çœŸï¼Œæ ¹æ®tbçš„dumpæŒ‡ä»¤ç”Ÿæˆæ³¢å½¢æ–‡ä»¶vcd%
-move wave.out ./simulation		%ç§»åŠ¨ä¸­é—´æ–‡ä»¶åˆ°ä»¿çœŸæ–‡ä»¶å¤¹%
-gtkwave ./simulation/wave.vcd     %æ‰“å¼€æ³¢å½¢æ–‡ä»¶%
+rd /s /q simulation		%É¾³ı·ÂÕæÎÄ¼ş¼Ğ%
+del *.vcd *.out *.txt	%É¾³ıÍü¼Ç¼Ó´úÂëÉú³ÉµÄÎÄ¼ş%
+md simulation		%ÖØ½¨·ÂÕæÎÄ¼ş¼Ğ%
+iverilog -o "wave.out" *_rtl.v *_tb.v    %±àÒërtlºÍtbÉú³ÉÖĞ¼äÎÄ¼ş%
+vvp wave.out     %ÓÃÖĞ¼äÎÄ¼ş½øĞĞ·ÂÕæ£¬¸ù¾İtbµÄdumpÖ¸ÁîÉú³É²¨ĞÎÎÄ¼şvcd%
+move wave.out ./simulation		%ÒÆ¶¯ÖĞ¼äÎÄ¼şµ½·ÂÕæÎÄ¼ş¼Ğ%
+gtkwave ./simulation/wave.vcd     %´ò¿ª²¨ĞÎÎÄ¼ş%
 %version1.3%
